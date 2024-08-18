@@ -1,0 +1,24 @@
+body {
+    background-color: #FAEDCE;
+}
+
+h1 {
+    color: #606676;
+}
+
+h2 {
+    color: #606676;
+}
+
+h3 {
+    color: #606676;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#error {
+    color: red;
+}

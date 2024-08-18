@@ -18,12 +18,12 @@ let dailyCodeMap;
 app.get('/', async (req, res) => {
   try {
     const response = await axios.get(URL);
-    console.log(response.data);
+    //console.log(response.data);
     currentWeather = response.data.current;
     dailyWeather = response.data.daily;
-    console.log("---------------");
-    console.log(currentWeather);
-    console.log(dailyWeather);
+    //console.log("---------------");
+    //console.log(currentWeather);
+    //console.log(dailyWeather);
     dailyCodeMap = getWeatherDescription(dailyWeather.weather_code);
     res.render('index.ejs', { todayWt: currentWeather, dailyWt: dailyWeather, wtStatus: dailyCodeMap });
   } catch (error) {

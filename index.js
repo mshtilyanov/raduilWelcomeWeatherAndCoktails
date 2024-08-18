@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 const URL = "https://api.open-meteo.com/v1/forecast?latitude=39.67&longitude=22.83&current=temperature_2m,is_day,precipitation,weather_code,wind_speed_10m,wind_direction_10m&daily=weather_code,sunrise,sunset,uv_index_max&timezone=auto&forecast_days=1"
-39.67928428966826, 22.830573630918884
+
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 

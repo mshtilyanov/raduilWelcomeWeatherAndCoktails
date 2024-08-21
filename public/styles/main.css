@@ -22,3 +22,8 @@ footer {
 #error {
     color: red;
 }
+
+#locForm {
+    background-color: antiquewhite;
+    width: 25%;
+}

@@ -18,7 +18,8 @@ let location = "raduil";
 
 let map = {
   raduil: ["42.28", "23.68"],
-  skiti: ["39.67", "22.83"]
+  skiti: ["39.67", "22.83"],
+  sofia: ["42.68", "23.29"]
 }
 
 app.get('/', async (req, res) => {
